@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function TablePage() {
   return (
-    //Todo lo que se encuentre dentro del componente TableProvider puede compartir variables/estados
+    //Todo lo que se encuentre dentro del componente TableProvider puede compartir las variables/estados definidos dentro del contexto
     <TableProvider>
       <div className="mt-3">
         <h1 className="text-center">Rick and Morty API</h1>
